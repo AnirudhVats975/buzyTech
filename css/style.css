@@ -430,12 +430,13 @@ nav {
 .heroSection {
     margin-top: 83px;
     width: 100%;
-    height: calc(100vh - 83px);
+    min-height: calc(100vh - 83px);
     background-image: url(https://resido.smartdemowp.com/wp-content/uploads/home-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(232, 239, 255);
+    background-attachment: fixed;
 }
 
 .heroSectionContent {
