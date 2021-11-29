@@ -56,7 +56,7 @@ let showPopup = function() {
         loginPopup.style.display = "block";
         overlayer.style.opacity = "1";
         document.querySelector("body").style.overflow = 'hidden';
-    }, 12000);
+    }, 8000);
 };
 showPopup();
 
