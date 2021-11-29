@@ -680,6 +680,12 @@ nav {
     }
 }
 
+@media only screen and (max-width: 464px) {
+    .worksCardWrapper {
+        padding: 20px;
+    }
+}
+
 
 /* ----good places css---------  */
 
@@ -843,6 +849,12 @@ nav {
     }
 }
 
+@media only screen and (max-width: 464px) {
+    .goodPlacesViewBtn {
+        margin-left: -230px !important;
+    }
+}
+
 
 /* ----------enquiry banner css -----------*/
 
@@ -904,6 +916,24 @@ nav {
     right: 50%;
     top: 47%;
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 564px) {
+    .divider {
+        display: none;
+    }
+    .enquireLeft {
+        text-align: center;
+        margin: 0;
+    }
+    .enquireRight {
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .enquireContent h2 {
+        font-size: 22px;
+    }
 }
 
 
@@ -1124,6 +1154,13 @@ nav {
 
 .contactFormImgWrap img {
     width: 80%;
+}
+
+@media only screen and (max-width: 564px) {
+    .contactFromWrap {
+        justify-content: center;
+        margin: 20px 0;
+    }
 }
 
 
